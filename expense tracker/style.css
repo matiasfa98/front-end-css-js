@@ -1,0 +1,84 @@
+.master{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+    height: 75vh;
+    margin-top: 10vh;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.308);
+}
+.expense{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: -15px;
+    width: 90%;
+    height: 75px;
+    background-color: aqua;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+}
+#item,#cost,#btn{
+     width: 90%;
+}
+input{
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+}
+#btn{
+    height: 25px;
+    width: 92%;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+}
+#display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 92%;
+}
+.things{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+    margin: 3px;
+    height: 35px;
+    gap: 7px;
+}
+#del{
+    width: 70px;
+    height: 25px;
+    background-color: red;
+    margin-right: 5px;
+     border-radius: 5px;
+    border: 1px solid rgba(10, 10, 10, 0.274);
+}
+#val{
+    margin-left: 5px;
+}
+.initity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

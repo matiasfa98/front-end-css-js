@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="master">
+        <div class="container">
+        <h1 >Expense Tracker</h1>
+        <div class="expense" >
+            <span 
+            font-family: Arial, Helvetica, sans-serif;
+            >Total Spent</span>
+            <span id="spent" style="font-size: 25px;
+                font-weight: 500;
+                font-family: Arial, Helvetica, sans-serif;">$0.00</span>
+        </div>
+        <input type="text" id="item" placeholder="Expense name(e.g lunch)" required >
+        <input type="text" id="cost" placeholder="Amount" required>
+        <button id="btn" onclick="add()">Add</button>
+        <div id="display" >
+            <div class="things">
+                <div class="initity">
+                    <span id="val" >hi</span>
+                    <span id="val-1">$</span>
+                </div>
+                <button id="del">Delete</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
