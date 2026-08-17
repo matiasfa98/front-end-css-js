@@ -1,4 +1,4 @@
-# front-end-css
+# front-end-css-js
 front end using js css and html
 
 this goes through css variables havly on flex box covering also flex direction and gradients too.
